@@ -1,0 +1,12 @@
+<div id="sidebar" class="sidebar col-md-4 col-lg-4">
+
+    {{!tag_cloud limit="all"}}
+
+    {{! 全局：标签 }}
+    {{> "tag_cloud"}}
+
+    {{! 文章：显示文章结构 }}
+    {{#is "post"}}
+        {{> "toc"}}
+    {{/is}}
+</div>

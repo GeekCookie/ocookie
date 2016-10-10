@@ -1,0 +1,19 @@
+{
+    "name": "Ocookie",
+    "description": "Ocookie  Theme Derive From Default Theme Casper",
+    "version": "0.0.1",
+    "author": {
+        "name": "Boris",
+        "url": "https://github.com/bo-siu"
+    },
+    "keywords": [
+        "Ocookie",
+        "ghost",
+        "theme",
+        "boris"
+    ],
+    "engines": {
+        "node": ">= 4"
+    },
+    "license": "MIT"
+}
